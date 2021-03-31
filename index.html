@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="apple-touch-icon" href="icon.png" />
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/drag.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+
+  <body>
+    <!-- Add your site or application content here -->
+
+    <div class="banner-area">
+      <div class="banner-area__text">
+        <span class="banner-area__green">উন্নয়নগুলো</span>
+        <span class="banner-area__red">বসান মানচিত্রে</span>
+      </div>
+      <div class="map">
+        <div
+          id="container"
+          ondrop="drop(event)"
+          ondragover="allowDrop(event)"
+          class="map1"
+        ></div>
+        <div
+          id="container"
+          ondrop="drop(event)"
+          ondragover="allowDrop(event)"
+          class="map2"
+        ></div>
+        <div
+          id="container"
+          ondrop="drop(event)"
+          ondragover="allowDrop(event)"
+          class="map3"
+        ></div>
+        <div
+          id="container"
+          ondrop="drop(event)"
+          ondragover="allowDrop(event)"
+          class="map4"
+        ></div>
+      </div>
+      <div class="image-area">
+        <div id="container" ondrop="drop(event)" ondragover="allowDrop(event)">
+          <img
+            src="./img/hatirjheel.png"
+            alt="hatirjheel"
+            class="small-image"
+            id="image1"
+            draggable="true"
+            ondragstart="drag(event)"
+          />
+        </div>
+        <div id="container" ondrop="drop(event)" ondragover="allowDrop(event)">
+          <img
+            src="./img/jamuna.png"
+            alt="hatirjheel"
+            class="small-image"
+            id="image2"
+            draggable="true"
+            ondragstart="drag(event)"
+          />
+        </div>
+        <div id="container" ondrop="drop(event)" ondragover="allowDrop(event)">
+          <img
+            src="./img/padma.png"
+            alt="hatirjheel"
+            class="small-image"
+            id="image3"
+            draggable="true"
+            ondragstart="drag(event)"
+          />
+        </div>
+        <div id="container" ondrop="drop(event)" ondragover="allowDrop(event)">
+          <img
+            src="./img/ruppur.png"
+            alt="hatirjheel"
+            class="small-image"
+            id="image4"
+            draggable="true"
+            ondragstart="drag(event)"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="banner-area-2" id="div1">
+      <div class="text-area">
+        <div class="text-1 anime-text">
+          <span class="word">জাতির পিতার</span>
+        </div>
+        <div class="text-2 anime-text-1">
+          <span class="word">শততম জন্মবার্ষিকীতে</span>
+        </div>
+        <div class="text-3 anime-text-2">
+          <span class="word">দেশ সোনার বাংলার পথে</span>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/vendor/anime.min.js"></script>
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/anime/draggable.js"></script>
+    <script src="js/anime/animeText.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+      window.ga = function () {
+        ga.q.push(arguments);
+      };
+      ga.q = [];
+      ga.l = +new Date();
+      ga("create", "UA-XXXXX-Y", "auto");
+      ga("set", "anonymizeIp", true);
+      ga("set", "transport", "beacon");
+      ga("send", "pageview");
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+  </body>
+</html>

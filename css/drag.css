@@ -1,0 +1,132 @@
+body {
+  background: #fff;
+  margin: 0;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  width: 30px;
+  height: 30px;
+}
+
+#image {
+  height: auto;
+  width: auto;
+}
+
+.banner-area {
+  width: 300px;
+  height: 250px;
+  background-image: url("../img/default.png");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.banner-area__text {
+  text-align: center;
+}
+
+.banner-area__green {
+  color: green;
+}
+
+.banner-area__red {
+  color: red;
+}
+
+.map {
+  width: 115px;
+  height: 156px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: 15px;
+}
+
+.map1 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.map2 {
+  position: absolute;
+  top: 35px;
+  right: 25px;
+}
+
+.map3 {
+  position: absolute;
+  bottom: 30px;
+  right: 10px;
+}
+
+.map4 {
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+}
+
+.image-area {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.image-area div {
+  margin: 0 10px;
+}
+
+.banner-area-2 {
+  width: 300px;
+  height: 250px;
+  background-image: url("../img/final.png");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  box-sizing: border-box;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-area {
+  text-align: center;
+  transform: rotate(355deg);
+  position: absolute;
+  top: 80px;
+  color: white;
+}
+
+.text-1 {
+  background-image: url("../img/green2.png");
+}
+
+.text-2 {
+  background-image: url("../img/red.png");
+}
+
+.text-3 {
+  background-image: url("../img/green1.png");
+}
+
+.anime-text,
+.anime-text-1,
+.anime-text-2,
+.word {
+  display: block;
+  line-height: 1em;
+  margin-bottom: 7px;
+}
